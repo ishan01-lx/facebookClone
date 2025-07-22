@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+
+    <!-- fontawesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- internal css -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="md:mx-4">
+      <header class="top-0">
+        <nav
+          class="h-[56px] w-full p-2 flex items-center justify-between shadow-[0_4px_4px_-2px_rgba(0,0,0,0.2)] bg-white fixed"
+        >
+          <div class="flex items-center flex-row gap-2">
+            <div class="">
+              <img src="/img/logo.png" alt="facebook logo" class="h-[40px]" />
+            </div>
+
+            <div class="rounded-full bg-gray-200 p-2 flex items-center gap-2">
+              <i class="fa-solid fa-magnifying-glass text-gray-500"></i>
+              <input
+                type="text"
+                placeholder="Search facebook"
+                class="hidden md:bg-gray-200 lg:w-64 md:w-40 md:block"
+              />
+            </div>
+          </div>
+
+          <div class="hidden md:block">
+            <ul class="flex gap-16 z-50">
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-house text-blue-600 text-xl"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-video text-xl"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-store text-xl"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-users text-xl"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-gamepad text-xl"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex items-center">
+            <ul class="flex gap-6">
+              <li class="bg-gray-200 rounded-full p-2">
+                <a href="#"
+                  ><i class="fa-solid fa-table-columns text-xl"></i
+                ></a>
+              </li>
+              <li class="bg-gray-200 rounded-full p-2">
+                <a href="#"
+                  ><i class="fa-brands fa-facebook-messenger text-xl"></i
+                ></a>
+              </li>
+              <li class="bg-gray-200 rounded-full p-2">
+                <a href="#"><i class="fa-solid fa-bell text-xl"></i></a>
+              </li>
+              <li class="">
+                <a href="#"
+                  ><img
+                    src="../img/profile.jpg"
+                    alt=""
+                    class="h-[40px] rounded-full"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <!-- main section -->
+      <main class="bg-white h-auto w-full pt-16 z-50 top-0 left-0 right-0">
+        <div class="flex justify-between mt-2">
+          <!-- left part -->
+          <div
+            class="hidden md:flex md:flex-col md:justify-evenly h-[100vh] overflow-auto custom-scroll scroll-smooth w-3/12 fixed cursor-pointer"
+          >
+            <ul>
+              <li class="hover:bg-gray-200 p-1">
+                <div class="flex gap-2 items-center">
+                  <a href="#"
+                    ><img
+                      src="../img/profile.jpg"
+                      alt=""
+                      class="h-[35px] rounded-full"
+                    />
+                  </a>
+                  <p>Ishan Chhetri</p>
+                </div>
+              </li>
+
+              <li class="hover:bg-gray-200 p-1">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"
+                    ><img
+                      src="https://static.xx.fbcdn.net/rsrc.php/v4/yX/r/w5I9ktz_3Ib.png"
+                      alt=""
+                      class="h-[30px] rounded-full"
+                    />
+                  </a>
+                  <p class="pl-1">Meta AI</p>
+                </div>
+              </li>
+
+              <li class="hover:bg-gray-200 p-1">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"><i class="fa-solid fa-user-group px-1"></i> </a>
+                  <p class="pl-1">Friends</p>
+                </div>
+              </li>
+
+              <li class="hover:bg-gray-200 p-1">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"
+                    ><img
+                      src="https://static.xx.fbcdn.net/rsrc.php/v4/y5/r/UcI9fM2oUUV.png"
+                      alt=""
+                      class="h-[30px] rounded-full"
+                    />
+                  </a>
+                  <p class="pl-1">Professional dashboard</p>
+                </div>
+              </li>
+
+              <li class="hover:bg-gray-200 p-1">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"
+                    ><img
+                      src="https://static.xx.fbcdn.net/rsrc.php/v4/yb/r/eECk3ceTaHJ.png"
+                      alt=""
+                      class="h-[30px] rounded-full"
+                    />
+                  </a>
+                  <p class="pl-1">Feeds</p>
+                </div>
+              </li>
+
+              <li class="hover:bg-gray-200 p-1">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"><i class="fa-solid fa-people-group"></i> </a>
+                  <p class="pl-3">Groups</p>
+                </div>
+              </li>
+
+              <li class="">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"><i class="fa-solid fa-store"></i> </a>
+                  <p class="pl-3">Marketplace</p>
+                </div>
+              </li>
+
+              <li class="hover:bg-gray-200 p-1">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"><i class="fa-solid fa-gift"></i> </a>
+                  <p class="pl-3">Birthdays</p>
+                </div>
+              </li>
+
+              <li class="hover:bg-gray-200 p-1">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"
+                    ><img
+                      src="https://static.xx.fbcdn.net/rsrc.php/v4/y3/r/Jr0q8qKF2-Y.png"
+                      alt=""
+                      class="h-[22px] rounded-full"
+                    />
+                  </a>
+                  <p class="">Climate Science Center</p>
+                </div>
+              </li>
+
+              <li class="hover:bg-gray-200 p-1">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"><i class="fa-solid fa-calendar-week"></i> </a>
+                  <p class="pl-3">Events</p>
+                </div>
+              </li>
+
+              <li class="hover:bg-gray-200 p-1">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"><i class="fa-solid fa-heart-pulse"></i> </a>
+                  <p class="pl-3">Fundraisers</p>
+                </div>
+              </li>
+
+              <li class="hover:bg-gray-200 p-1">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"
+                    ><img
+                      src="https://static.xx.fbcdn.net/rsrc.php/v4/yJ/r/fGWbDwbx9W4.png"
+                      alt=""
+                      class="h-[22px] rounded-full"
+                    />
+                  </a>
+                  <p class="pl-1">Gaming Video</p>
+                </div>
+              </li>
+
+              <li class="hover:bg-gray-200 p-1">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"><i class="fa-solid fa-clock-rotate-left"></i> </a>
+                  <p class="pl-3">Memories</p>
+                </div>
+              </li>
+
+              <li class="hover:bg-gray-200 p-1">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"
+                    ><i class="fa-brands fa-facebook-messenger"></i>
+                  </a>
+                  <p class="pl-3">Messenger</p>
+                </div>
+              </li>
+
+              <li class="hover:bg-gray-200 p-1">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"
+                    ><img
+                      src="https://static.xx.fbcdn.net/rsrc.php/v4/yN/r/6Z9DShdc7zU.png"
+                      alt=""
+                      class="h-[22px] rounded-full"
+                    />
+                  </a>
+                  <p class="pl-1">Messenger Kids</p>
+                </div>
+              </li>
+
+              <li class="hover:bg-gray-200 p-1">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"
+                    ><img
+                      src="https://static.xx.fbcdn.net/rsrc.php/v4/yv/r/GJ4EaivDaSj.png"
+                      alt=""
+                      class="h-[22px] rounded-full"
+                    />
+                  </a>
+                  <p class="pl-1">Orders and payments</p>
+                </div>
+              </li>
+
+              <li class="hover:bg-gray-200 p-1">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"><i class="fa-solid fa-flag"></i> </a>
+                  <p class="pl-3">Pages</p>
+                </div>
+              </li>
+              <li class="hover:bg-gray-200 p-1">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"><i class="fa-solid fa-gamepad"></i> </a>
+                  <p class="pl-1">Play Games</p>
+                </div>
+              </li>
+              <li class="hover:bg-gray-200 p-1">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"
+                    ><img
+                      src="https://static.xx.fbcdn.net/rsrc.php/v4/yv/r/x2_LFd7gCqg.png"
+                      alt=""
+                      class="h-[22px] rounded-full"
+                    />
+                  </a>
+                  <p class="pl-1">Recent ad activity</p>
+                </div>
+              </li>
+
+              <li class="hover:bg-gray-200 p-1">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"><i class="fa-solid fa-bookmark"></i> </a>
+                  <p class="pl-1">saved</p>
+                </div>
+              </li>
+              <li class="">
+                <div class="flex gap-2 mt-2 items-center">
+                  <a href="#"><i class="fa-solid fa-video"></i> </a>
+                  <p class="pl-1">Video</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- central part -->
+          <div
+            class="w-full lg:ml-auto lg:mr-auto md:w-8/12 lg:w-5/12 overflow-auto"
+          >
+            <div
+              class="md:h-[20vh] hidden lg:block rounded-md p-3 shadow-[0_0_6px_2px_rgba(0,0,0,0.4)]"
+            >
+              <div class="flex gap-6 items-center">
+                <div class="">
+                  <a href="#"
+                    ><img
+                      src="../img/profile.jpg"
+                      alt=""
+                      class="h-[40px] rounded-full"
+                  /></a>
+                </div>
+                <div class="">
+                  <input
+                    type="text"
+                    placeholder="What`s on your mind, Ishan?"
+                    class="w-[35vw] rounded-full bg-gray-100 p-2"
+                  />
+                </div>
+              </div>
+              <hr class="my-5" />
+              <div class="flex justify-evenly items-center">
+                <div class="flex items-center gap-2">
+                  <img
+                    src="https://static.xx.fbcdn.net/rsrc.php/v4/yr/r/c0dWho49-X3.png"
+                    alt=""
+                  />
+                  <p class="text-xs md:text-lg text-gray-700">Live video</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img
+                    src="https://static.xx.fbcdn.net/rsrc.php/v4/y7/r/Ivw7nhRtXyo.png"
+                    alt=""
+                  />
+                  <p class="text-xs md:text-lg text-gray-700">Photo/Video</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <img
+                    src="https://static.xx.fbcdn.net/rsrc.php/v4/y-/r/t2NS5_5UwDb.png"
+                    alt=""
+                  />
+                  <p class="text-xs md:text-lg text-gray-700">Reel</p>
+                </div>
+              </div>
+            </div>
+            <div class="h-[10vh] md:h-[18vh] lg:h-[25vh]">
+              <img src="../img/image.png" alt="" />
+            </div>
+
+                        <div
+              class="h-auto w-full mt-16 lg:mt-16 shadow-[0_0_6px_2px_rgba(0,0,0,0.4)] rounded-md pb-3"
+            >
+              <div class="flex p-2">
+                <div class="">
+                  <img
+                    src="https://scontent.fktm21-2.fna.fbcdn.net/v/t39.30808-1/369244144_684462607033217_1055458955781150130_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=103&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=3xK4dJ7rPTwQ7kNvwHKg7fm&_nc_oc=AdmfG-RE3ziAmWAYRW8lNwNg_OIH_Xyp2TCyseG9ONbTUJxqvdSSgFMsMZ56zmHnmfGn2sBRi_9bQApI0jjjCPXr&_nc_zt=24&_nc_ht=scontent.fktm21-2.fna&_nc_gid=K-Hbfd6Y19XWmmYK7sfnTw&oh=00_AfTYH3RHkbu0wOlGQvtFLZ_k27fE-wMyvtQDI6MG1EP8rA&oe=6884E70D"
+                    alt="" class="rounded-full"
+                  />
+                </div>
+                <div class="block">
+                  <div class="flex items-center gap-1 pl-1">
+                    Youth of Arughat ·
+                    <p class="font-semibold text-gray-700 ml-2">
+                      <!-- enter alt+0183 to get -->
+                    </p>
+                    <p>
+                      <a href="" class="text-blue-600 hover:underline"
+                        >Follow</a
+                      >
+                    </p>
+                  </div>
+
+                  <div class="flex items-center gap-2 ml-2">
+                    <p class="text-xs text-gray-600">July 15 at 4:16 PM ·</p>
+                    <i class="fa-solid fa-earth-asia text-xs text-gray-600"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="p-2">
+                  सुभ बिहानि आरुघाट बजार बाट।
+
+                </p>
+              </div>
+              <div class="flex justify-center bg-gray-400">
+                <img
+                  src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/487543569_1071127528366721_8173125621347958286_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=PJs9Fd4N8YIQ7kNvwF06gye&_nc_oc=AdlN8vYtc42LwH7udmWg8kQSj1U8p7JGLaTs0LWo4stGawPwiK5aHN61C10bt5hvNlIaiVT8IxFe5_GI443aj-1t&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=JwSvpQoFd_kIMPncgBicYw&oh=00_AfRPSOV6w4AwEeouNnwmjovGHLH7PAEbNssKa6PdR4Ip8Q&oe=6884F85F"
+                  alt=""
+                />
+              </div>
+              <div class="">
+                <img src="../img/yamaley.png" alt="" />
+              </div>
+            </div>
+            <!-- post card -->
+            <div
+              class="h-auto w-full mt-2 shadow-[0_0_6px_2px_rgba(0,0,0,0.4)] rounded-md"
+            >
+              <div class="flex p-2">
+                <div class="">
+                  <img
+                    src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/348447339_195932153387490_3866907182100963029_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=1a9ySqT9nOUQ7kNvwGmT0DV&_nc_oc=Adk-A0CV-cvuMqJjwiuLFxRzF45cxQbtcBkm4ZlrRydsUSNjmCX7gSF4fGrjpvCqU4GHsSpBewFNCKNzFRWFfqKO&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=JMlXWfzvr62PBZHad6b4-Q&oh=00_AfSywsQfuLs9gvLtwTILWvZX2Y3hjpsm9dpoYS0RBLaBGg&oe=6884DF21"
+                    alt=""
+                  />
+                </div>
+                <div class="block">
+                  <p class="font-semibold text-gray-700">
+                    Routine of Nepal banda
+                  </p>
+                  <div class="flex items-center gap-2">
+                    <p class="text-xs text-gray-600">1h ·</p>
+                    <i class="fa-solid fa-earth-asia text-xs text-gray-600"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="p-2">
+                  UAE becomes the country with the highest number of Nepali
+                  workers going there as more than 2.74 lakhs people have taken
+                  work-permit for UAE in the last fiscal year. 😮
+                </p>
+              </div>
+              <div class="">
+                <img
+                  src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/522195763_1135764711918757_4711307537373006347_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=1&ccb=1-7&_nc_sid=833d8c&_nc_ohc=2KgCOWGC2t0Q7kNvwEYpVuT&_nc_oc=AdlByFCKsbqA826XGhEDwl1dkPcuh3QOf0Ou63vL5JgCBDqH1V24YDDcwjadp06vl8ZHIZKMF0YgnE_Ifx6U-lxo&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=yOkvnHEvXECM5w2Hui2wzw&oh=00_AfTtEj8N4cd8tlI3CFjPXn2sPvZZgLZ8hAWHEeKTzDTIag&oe=6884E622"
+                  alt=""
+                />
+              </div>
+              <div class="">
+                <img src="../img/comment1.png" alt="" />
+              </div>
+            </div>
+
+            <!-- post card 2 -->
+
+            <div
+              class="h-auto w-full mt-6 shadow-[0_0_6px_2px_rgba(0,0,0,0.4)] rounded-md pb-3"
+            >
+              <div class="flex p-2">
+                <div class="">
+                  <img
+                    src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/516554495_1183487570487700_7467264036127761640_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=evUI3RPvcm8Q7kNvwEyN0Ag&_nc_oc=AdloUgLV1Y-tNrDNWaFUf6xhyLoCULmC6ueZ1LwnjMJu8qItLVH8FCXSGrcBPPuQsXJ2QrWU5ayHflwIP9V8O7n4&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=4IggSqgNC1o4sxltYuuwaA&oh=00_AfRq4WIro9jzY0kqM1ynxPOuhO8kT9fT75oGxfPuBbJyqg&oe=6884D6A7"
+                    alt=""
+                  />
+                </div>
+                <div class="block">
+                  <p class="font-semibold text-gray-700 ml-2">Onefootball</p>
+                  <div class="flex items-center gap-2 ml-2">
+                    <p class="text-xs text-gray-600">8m ·</p>
+                    <i class="fa-solid fa-earth-asia text-xs text-gray-600"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="p-2">
+                  UAE becomes the country with the highest number of Nepali
+                  workers going there as more than 2.74 lakhs people have taken
+                  work-permit for UAE in the last fiscal year. 😮
+                </p>
+              </div>
+              <div class="flex justify-center bg-gray-400">
+                <img
+                  src="https://scontent.fktm21-2.fna.fbcdn.net/v/t39.30808-6/523951553_1308795020610834_452287793045920672_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=H-bFTwQlivEQ7kNvwGsJdmO&_nc_oc=AdlpUrfQBG6ERKsYAravjaHn_WRdBY2MyWeN8KTxFuvt6y10OiQfqF6qlrjH14-ddnXwfCDinBvFOKJSphi6UBoT&_nc_zt=23&_nc_ht=scontent.fktm21-2.fna&_nc_gid=2C4D8n2RlDZkzGm6PqEcMw&oh=00_AfTSIvtW3jj7IJDCDiGiLReOM3Wj_paEaeNIdkgm4oX5Xw&oe=6884FE10"
+                  alt=""
+                />
+              </div>
+              <div class="">
+                <img src="../img/neymar.png" alt="" />
+              </div>
+            </div>
+
+            <!-- post card 3 -->
+
+            <div
+              class="h-auto w-full mt-6 shadow-[0_0_6px_2px_rgba(0,0,0,0.4)] rounded-md pb-3"
+            >
+              <div class="flex p-2">
+                <div class="">
+                  <img
+                    src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/352330521_806260614197533_1503264942708245387_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=wTl8p2pDak8Q7kNvwG9H28u&_nc_oc=AdmCWjIFD48gN8ol9RNFj62NEbbbcBgYWojMKo5jobx9lV44XS3CtjXm3Tg2KCrd-HX587KIqYVWDzdm2WFpVGKA&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=7Aw6ENX1hWI65vKak1Tegw&oh=00_AfRqIP6rOaTIvsN4bffIhbetKpWxUVGp1gYX4R_8rypm-w&oe=6884F9A1"
+                    alt=""
+                  />
+                </div>
+                <div class="block">
+                  <p class="font-semibold text-gray-700 ml-2">GiveMeSport</p>
+                  <div class="flex items-center gap-2 ml-2">
+                    <p class="text-xs text-gray-600">40m ·</p>
+                    <i class="fa-solid fa-earth-asia text-xs text-gray-600"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="p-2">
+                  Lamine Yamal's greatest-ever XI is an absolute JOKE 😳🔥
+                </p>
+              </div>
+              <div class="flex justify-center bg-gray-400">
+                <img
+                  src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/519759730_1308673453956324_1376329009266355561_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=1&ccb=1-7&_nc_sid=127cfc&_nc_ohc=gmnOyHqnJgIQ7kNvwF_4KUX&_nc_oc=Adl1lvkwU1aVsaW0qoEb5wmCTd1gJf4vKK9wAly7fnYq6fToJHp7_694owDIpVf-VMiw0oLnqKRsQi-rfuaz6pyZ&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=NZFwIQAmMDEy3aKGzYmNfQ&oh=00_AfS5n7I6UTU3ES3uIVO4qtxafWaUO2ZgsP2KlViCbww8yw&oe=6884F7AF"
+                  alt=""
+                />
+              </div>
+              <div class="">
+                <img src="../img/yamaley.png" alt="" />
+              </div>
+            </div>
+
+            <!-- post card 4 -->
+
+            <div
+              class="h-auto w-full mt-6 shadow-[0_0_6px_2px_rgba(0,0,0,0.4)] rounded-md pb-3"
+            >
+              <div class="flex p-2">
+                <div class="">
+                  <img
+                    src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/348447339_195932153387490_3866907182100963029_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=1a9ySqT9nOUQ7kNvwGmT0DV&_nc_oc=Adk-A0CV-cvuMqJjwiuLFxRzF45cxQbtcBkm4ZlrRydsUSNjmCX7gSF4fGrjpvCqU4GHsSpBewFNCKNzFRWFfqKO&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=c-vaYpr1eqQKFdDZ1Mowag&oh=00_AfRxvM-ix93lKw6Wpi6Sy9TvmPy3Mgedp1pExujcO3tMQg&oe=6884DF21"
+                    alt=""
+                  />
+                </div>
+                <div class="block">
+                  <p class="font-semibold text-gray-700 ml-2">
+                    Routine of Nepal banda
+                  </p>
+                  <div class="flex items-center gap-2 ml-2">
+                    <p class="text-xs text-gray-600">4h ·</p>
+                    <i class="fa-solid fa-earth-asia text-xs text-gray-600"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="p-2">
+                  Tuesday Morning & Statue of Lord Ganesh at Salakpur, Morang.
+                  ❤️🙏 Pic. Bibek Poudel
+                </p>
+              </div>
+              <div class="flex justify-center bg-red-800">
+                <img
+                  src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/520143121_1135453565283205_9181678520613011628_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=1&ccb=1-7&_nc_sid=833d8c&_nc_ohc=YwTC0RwN0vIQ7kNvwHm45Ps&_nc_oc=Adls7d_QIP1k7qZDVmbQ9twvM3j4KyfjC3Z6YUcmrV7Jt1n5dmlEhY3ILa1IN51jwJMicfdnLDX491lVuPh2vfq_&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=i37eyNer6eFkorwMXv2vyA&oh=00_AfQjBVy8dglwF7RBuPpAHKa9SB5AV9-cOfT3-Mdqyzt9uQ&oe=6884E6C4"
+                  alt=""
+                />
+              </div>
+              <div class="">
+                <img src="../img/god.png" alt="" />
+              </div>
+            </div>
+
+            <!-- post card 5 -->
+
+            <div
+              class="h-auto w-full mt-6 shadow-[0_0_6px_2px_rgba(0,0,0,0.4)] rounded-md pb-3"
+            >
+              <div class="flex p-2">
+                <div class="">
+                  <img
+                    src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/340295802_1168878283782627_467679922650817511_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=MrWCTWQfTmoQ7kNvwGFW4cz&_nc_oc=Adm4LhhmlfYBzIPkUCpB5gCPkrLR3vncilA8ebaPnRKD7qGduPZAdZ8b0bxPAEErhe0irMaOjjdQ1dVcF_RvABE6&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=uaZ2OYL_3gVHaVwAoIqRvg&oh=00_AfTUS5AtXTSw8wlVkr0ep0r7wMn94XAE3BWqyR3C9i02Ug&oe=688508E6"
+                    alt=""
+                  />
+                </div>
+                <div class="block">
+                  <div class="flex items-center gap-1">
+                    <p class="font-semibold text-gray-700 ml-2">
+                      Art ·
+                      <!-- enter alt+0183 to get -->
+                    </p>
+                    <p>
+                      <a href="" class="text-blue-600 hover:underline"
+                        >Follow</a
+                      >
+                    </p>
+                  </div>
+
+                  <div class="flex items-center gap-2 ml-2">
+                    <p class="text-xs text-gray-600">July 15 at 4:16 PM ·</p>
+                    <i class="fa-solid fa-earth-asia text-xs text-gray-600"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="p-2">
+                  when he matches my freakyness instead of calling me weird:
+
+                </p>
+              </div>
+              <div class="flex justify-center bg-gray-400">
+                <img
+                  src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/520214708_700001519672273_874943564981555026_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=1&ccb=1-7&_nc_sid=127cfc&_nc_ohc=PWXtiGhvKNEQ7kNvwH39nLd&_nc_oc=AdkkaCrP6GSx3Y4n6-9dPLOe2EDWmmjSMJTAeqJKX4GCVqxgih2bsrrRlNoh71vi7RmK_TOTaOoBc8i47bPeTmIy&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=fqIB7XrbCLxkC-_5n9VPSQ&oh=00_AfSImYYFtbZHR220fogc6Tpg6ySRW2V5lvWRFnyQfxrcVw&oe=6884DECE"
+                  alt=""
+                />
+              </div>
+              <div class="">
+                <img src="../img/neymar.png" alt="" />
+              </div>
+            </div>
+
+            <!-- post card 6 -->
+
+            <div
+              class="h-auto w-full mt-6 shadow-[0_0_6px_2px_rgba(0,0,0,0.4)] rounded-md pb-3"
+            >
+              <div class="flex p-2">
+                <div class="">
+                  <img
+                    src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/357086956_640599234779513_5125238757925284799_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=jEpogYlTJ00Q7kNvwFHxCIW&_nc_oc=Admu_HQgztypWgOu1mEUlz-yvw8OP84pI5UQrBnNw3w6p8DLIoVJkJ1iRKHzBPUwuSjqNRPi9NmjI-hXd4gzM1Gw&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfSFxa4r0DRkZBUPFq-wIJs0PBTA_9qIiQXPbkkOU5xV4A&oe=6884DC57"
+                    alt=""
+                    class="rounded-full"
+                  />
+                </div>
+                <div class="block">
+                  <div class="flex items-center">
+                    <p class="font-semibold text-gray-700 ml-2">SPORTbible</p>
+                    <span class="bg-blue-500 ml-1 rounded-full text-white p-1" aria-label="Verified"
+                      >✓</span
+                    >
+                  </div>
+
+                  <div class="flex items-center gap-2 ml-2">
+                    <p class="text-xs text-gray-600">8m ·</p>
+                    <i class="fa-solid fa-earth-asia text-xs text-gray-600"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="p-2">
+                  Reese told fans that her $73,000 salary did not cover her
+                  $96,000-per-year rent and everyday bills. Steph Curry was
+                  quick to give his thoughts.
+                </p>
+              </div>
+              <div class="flex justify-center bg-gray-400">
+                <img
+                  src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/515439923_1149086500597448_6795107110982435712_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=1&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wqobdUf99nIQ7kNvwFdi59Z&_nc_oc=Adm1kH8LqVJmN-AVVtgEWJANd6xXr0podvwuwGrsgi5IA6DuPamdw64pWhltb1ruTfoHysKAktrcjmHgyMVOQYfB&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfRI7oJKNkdP04lBsg7EyoPzmJ5R4muu6p2ZVjuXuli_lw&oe=6885127C"
+                  alt=""
+                />
+              </div>
+              <div class="">
+                <img src="../img/basketball.png" alt="" />
+              </div>
+            </div>
+            <!-- post card 6 -->
+
+            <div
+              class="h-auto w-full mt-6 shadow-[0_0_6px_2px_rgba(0,0,0,0.4)] rounded-md pb-3"
+            >
+              <div class="flex p-2">
+                <div class="">
+                  <img
+                    src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/357086956_640599234779513_5125238757925284799_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=jEpogYlTJ00Q7kNvwFHxCIW&_nc_oc=Admu_HQgztypWgOu1mEUlz-yvw8OP84pI5UQrBnNw3w6p8DLIoVJkJ1iRKHzBPUwuSjqNRPi9NmjI-hXd4gzM1Gw&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfSFxa4r0DRkZBUPFq-wIJs0PBTA_9qIiQXPbkkOU5xV4A&oe=6884DC57"
+                    alt=""
+                    class="rounded-full"
+                  />
+                </div>
+                <div class="block">
+                  <div class="flex items-center">
+                    <p class="font-semibold text-gray-700 ml-2">SPORTbible</p>
+                    <span class="bg-blue-500 ml-1 rounded-full text-white p-1" aria-label="Verified"
+                      >✓</span
+                    >
+                  </div>
+
+                  <div class="flex items-center gap-2 ml-2">
+                    <p class="text-xs text-gray-600">8m ·</p>
+                    <i class="fa-solid fa-earth-asia text-xs text-gray-600"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="p-2">
+                  Reese told fans that her $73,000 salary did not cover her
+                  $96,000-per-year rent and everyday bills. Steph Curry was
+                  quick to give his thoughts.
+                </p>
+              </div>
+              <div class="flex justify-center bg-gray-400">
+                <img
+                  src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/515439923_1149086500597448_6795107110982435712_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=1&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wqobdUf99nIQ7kNvwFdi59Z&_nc_oc=Adm1kH8LqVJmN-AVVtgEWJANd6xXr0podvwuwGrsgi5IA6DuPamdw64pWhltb1ruTfoHysKAktrcjmHgyMVOQYfB&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfRI7oJKNkdP04lBsg7EyoPzmJ5R4muu6p2ZVjuXuli_lw&oe=6885127C"
+                  alt=""
+                />
+              </div>
+              <div class="">
+                <img src="../img/basketball.png" alt="" />
+              </div>
+            </div>
+            <!-- post card 6 -->
+
+            <div
+              class="h-auto w-full mt-6 shadow-[0_0_6px_2px_rgba(0,0,0,0.4)] rounded-md pb-3"
+            >
+              <div class="flex p-2">
+                <div class="">
+                  <img
+                    src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/357086956_640599234779513_5125238757925284799_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=jEpogYlTJ00Q7kNvwFHxCIW&_nc_oc=Admu_HQgztypWgOu1mEUlz-yvw8OP84pI5UQrBnNw3w6p8DLIoVJkJ1iRKHzBPUwuSjqNRPi9NmjI-hXd4gzM1Gw&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfSFxa4r0DRkZBUPFq-wIJs0PBTA_9qIiQXPbkkOU5xV4A&oe=6884DC57"
+                    alt=""
+                    class="rounded-full"
+                  />
+                </div>
+                <div class="block">
+                  <div class="flex items-center">
+                    <p class="font-semibold text-gray-700 ml-2">SPORTbible</p>
+                    <span class="bg-blue-500 ml-1 rounded-full text-white p-1" aria-label="Verified"
+                      >✓</span
+                    >
+                  </div>
+
+                  <div class="flex items-center gap-2 ml-2">
+                    <p class="text-xs text-gray-600">8m ·</p>
+                    <i class="fa-solid fa-earth-asia text-xs text-gray-600"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="p-2">
+                  Reese told fans that her $73,000 salary did not cover her
+                  $96,000-per-year rent and everyday bills. Steph Curry was
+                  quick to give his thoughts.
+                </p>
+              </div>
+              <div class="flex justify-center bg-gray-400">
+                <img
+                  src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/515439923_1149086500597448_6795107110982435712_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=1&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wqobdUf99nIQ7kNvwFdi59Z&_nc_oc=Adm1kH8LqVJmN-AVVtgEWJANd6xXr0podvwuwGrsgi5IA6DuPamdw64pWhltb1ruTfoHysKAktrcjmHgyMVOQYfB&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfRI7oJKNkdP04lBsg7EyoPzmJ5R4muu6p2ZVjuXuli_lw&oe=6885127C"
+                  alt=""
+                />
+              </div>
+              <div class="">
+                <img src="../img/basketball.png" alt="" />
+              </div>
+            </div>
+            <!-- post card 6 -->
+
+            <div
+              class="h-auto w-full mt-6 shadow-[0_0_6px_2px_rgba(0,0,0,0.4)] rounded-md pb-3"
+            >
+              <div class="flex p-2">
+                <div class="">
+                  <img
+                    src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/357086956_640599234779513_5125238757925284799_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=jEpogYlTJ00Q7kNvwFHxCIW&_nc_oc=Admu_HQgztypWgOu1mEUlz-yvw8OP84pI5UQrBnNw3w6p8DLIoVJkJ1iRKHzBPUwuSjqNRPi9NmjI-hXd4gzM1Gw&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfSFxa4r0DRkZBUPFq-wIJs0PBTA_9qIiQXPbkkOU5xV4A&oe=6884DC57"
+                    alt=""
+                    class="rounded-full"
+                  />
+                </div>
+                <div class="block">
+                  <div class="flex items-center">
+                    <p class="font-semibold text-gray-700 ml-2">SPORTbible</p>
+                    <span class="bg-blue-500 ml-1 rounded-full text-white p-1" aria-label="Verified"
+                      >✓</span
+                    >
+                  </div>
+
+                  <div class="flex items-center gap-2 ml-2">
+                    <p class="text-xs text-gray-600">8m ·</p>
+                    <i class="fa-solid fa-earth-asia text-xs text-gray-600"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="p-2">
+                  Reese told fans that her $73,000 salary did not cover her
+                  $96,000-per-year rent and everyday bills. Steph Curry was
+                  quick to give his thoughts.
+                </p>
+              </div>
+              <div class="flex justify-center bg-gray-400">
+                <img
+                  src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/515439923_1149086500597448_6795107110982435712_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=1&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wqobdUf99nIQ7kNvwFdi59Z&_nc_oc=Adm1kH8LqVJmN-AVVtgEWJANd6xXr0podvwuwGrsgi5IA6DuPamdw64pWhltb1ruTfoHysKAktrcjmHgyMVOQYfB&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfRI7oJKNkdP04lBsg7EyoPzmJ5R4muu6p2ZVjuXuli_lw&oe=6885127C"
+                  alt=""
+                />
+              </div>
+              <div class="">
+                <img src="../img/basketball.png" alt="" />
+              </div>
+            </div>
+            <!-- post card 6 -->
+
+            <div
+              class="h-auto w-full mt-6 shadow-[0_0_6px_2px_rgba(0,0,0,0.4)] rounded-md pb-3"
+            >
+              <div class="flex p-2">
+                <div class="">
+                  <img
+                    src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/357086956_640599234779513_5125238757925284799_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=jEpogYlTJ00Q7kNvwFHxCIW&_nc_oc=Admu_HQgztypWgOu1mEUlz-yvw8OP84pI5UQrBnNw3w6p8DLIoVJkJ1iRKHzBPUwuSjqNRPi9NmjI-hXd4gzM1Gw&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfSFxa4r0DRkZBUPFq-wIJs0PBTA_9qIiQXPbkkOU5xV4A&oe=6884DC57"
+                    alt=""
+                    class="rounded-full"
+                  />
+                </div>
+                <div class="block">
+                  <div class="flex items-center">
+                    <p class="font-semibold text-gray-700 ml-2">SPORTbible</p>
+                    <span class="bg-blue-500 ml-1 rounded-full text-white p-1" aria-label="Verified"
+                      >✓</span
+                    >
+                  </div>
+
+                  <div class="flex items-center gap-2 ml-2">
+                    <p class="text-xs text-gray-600">8m ·</p>
+                    <i class="fa-solid fa-earth-asia text-xs text-gray-600"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="p-2">
+                  Reese told fans that her $73,000 salary did not cover her
+                  $96,000-per-year rent and everyday bills. Steph Curry was
+                  quick to give his thoughts.
+                </p>
+              </div>
+              <div class="flex justify-center bg-gray-400">
+                <img
+                  src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/515439923_1149086500597448_6795107110982435712_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=1&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wqobdUf99nIQ7kNvwFdi59Z&_nc_oc=Adm1kH8LqVJmN-AVVtgEWJANd6xXr0podvwuwGrsgi5IA6DuPamdw64pWhltb1ruTfoHysKAktrcjmHgyMVOQYfB&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfRI7oJKNkdP04lBsg7EyoPzmJ5R4muu6p2ZVjuXuli_lw&oe=6885127C"
+                  alt=""
+                />
+              </div>
+              <div class="">
+                <img src="../img/basketball.png" alt="" />
+              </div>
+            </div>
+            <!-- post card 6 -->
+
+            <div
+              class="h-auto w-full mt-6 shadow-[0_0_6px_2px_rgba(0,0,0,0.4)] rounded-md pb-3"
+            >
+              <div class="flex p-2">
+                <div class="">
+                  <img
+                    src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/357086956_640599234779513_5125238757925284799_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=jEpogYlTJ00Q7kNvwFHxCIW&_nc_oc=Admu_HQgztypWgOu1mEUlz-yvw8OP84pI5UQrBnNw3w6p8DLIoVJkJ1iRKHzBPUwuSjqNRPi9NmjI-hXd4gzM1Gw&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfSFxa4r0DRkZBUPFq-wIJs0PBTA_9qIiQXPbkkOU5xV4A&oe=6884DC57"
+                    alt=""
+                    class="rounded-full"
+                  />
+                </div>
+                <div class="block">
+                  <div class="flex items-center">
+                    <p class="font-semibold text-gray-700 ml-2">SPORTbible</p>
+                    <span class="bg-blue-500 ml-1 rounded-full text-white p-1" aria-label="Verified"
+                      >✓</span
+                    >
+                  </div>
+
+                  <div class="flex items-center gap-2 ml-2">
+                    <p class="text-xs text-gray-600">8m ·</p>
+                    <i class="fa-solid fa-earth-asia text-xs text-gray-600"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="p-2">
+                  Reese told fans that her $73,000 salary did not cover her
+                  $96,000-per-year rent and everyday bills. Steph Curry was
+                  quick to give his thoughts.
+                </p>
+              </div>
+              <div class="flex justify-center bg-gray-400">
+                <img
+                  src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/515439923_1149086500597448_6795107110982435712_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=1&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wqobdUf99nIQ7kNvwFdi59Z&_nc_oc=Adm1kH8LqVJmN-AVVtgEWJANd6xXr0podvwuwGrsgi5IA6DuPamdw64pWhltb1ruTfoHysKAktrcjmHgyMVOQYfB&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfRI7oJKNkdP04lBsg7EyoPzmJ5R4muu6p2ZVjuXuli_lw&oe=6885127C"
+                  alt=""
+                />
+              </div>
+              <div class="">
+                <img src="../img/basketball.png" alt="" />
+              </div>
+            </div>
+            <!-- post card 6 -->
+
+            <div
+              class="h-auto w-full mt-6 shadow-[0_0_6px_2px_rgba(0,0,0,0.4)] rounded-md pb-3"
+            >
+              <div class="flex p-2">
+                <div class="">
+                  <img
+                    src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/357086956_640599234779513_5125238757925284799_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=jEpogYlTJ00Q7kNvwFHxCIW&_nc_oc=Admu_HQgztypWgOu1mEUlz-yvw8OP84pI5UQrBnNw3w6p8DLIoVJkJ1iRKHzBPUwuSjqNRPi9NmjI-hXd4gzM1Gw&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfSFxa4r0DRkZBUPFq-wIJs0PBTA_9qIiQXPbkkOU5xV4A&oe=6884DC57"
+                    alt=""
+                    class="rounded-full"
+                  />
+                </div>
+                <div class="block">
+                  <div class="flex items-center">
+                    <p class="font-semibold text-gray-700 ml-2">SPORTbible</p>
+                    <span class="bg-blue-500 ml-1 rounded-full text-white p-1" aria-label="Verified"
+                      >✓</span
+                    >
+                  </div>
+
+                  <div class="flex items-center gap-2 ml-2">
+                    <p class="text-xs text-gray-600">8m ·</p>
+                    <i class="fa-solid fa-earth-asia text-xs text-gray-600"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="p-2">
+                  Reese told fans that her $73,000 salary did not cover her
+                  $96,000-per-year rent and everyday bills. Steph Curry was
+                  quick to give his thoughts.
+                </p>
+              </div>
+              <div class="flex justify-center bg-gray-400">
+                <img
+                  src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/515439923_1149086500597448_6795107110982435712_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=1&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wqobdUf99nIQ7kNvwFdi59Z&_nc_oc=Adm1kH8LqVJmN-AVVtgEWJANd6xXr0podvwuwGrsgi5IA6DuPamdw64pWhltb1ruTfoHysKAktrcjmHgyMVOQYfB&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfRI7oJKNkdP04lBsg7EyoPzmJ5R4muu6p2ZVjuXuli_lw&oe=6885127C"
+                  alt=""
+                />
+              </div>
+              <div class="">
+                <img src="../img/basketball.png" alt="" />
+              </div>
+            </div>
+            <!-- post card 6 -->
+
+            <div
+              class="h-auto w-full mt-6 shadow-[0_0_6px_2px_rgba(0,0,0,0.4)] rounded-md pb-3"
+            >
+              <div class="flex p-2">
+                <div class="">
+                  <img
+                    src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/357086956_640599234779513_5125238757925284799_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=jEpogYlTJ00Q7kNvwFHxCIW&_nc_oc=Admu_HQgztypWgOu1mEUlz-yvw8OP84pI5UQrBnNw3w6p8DLIoVJkJ1iRKHzBPUwuSjqNRPi9NmjI-hXd4gzM1Gw&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfSFxa4r0DRkZBUPFq-wIJs0PBTA_9qIiQXPbkkOU5xV4A&oe=6884DC57"
+                    alt=""
+                    class="rounded-full"
+                  />
+                </div>
+                <div class="block">
+                  <div class="flex items-center">
+                    <p class="font-semibold text-gray-700 ml-2">SPORTbible</p>
+                    <span class="bg-blue-500 ml-1 rounded-full text-white p-1" aria-label="Verified"
+                      >✓</span
+                    >
+                  </div>
+
+                  <div class="flex items-center gap-2 ml-2">
+                    <p class="text-xs text-gray-600">8m ·</p>
+                    <i class="fa-solid fa-earth-asia text-xs text-gray-600"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="p-2">
+                  Reese told fans that her $73,000 salary did not cover her
+                  $96,000-per-year rent and everyday bills. Steph Curry was
+                  quick to give his thoughts.
+                </p>
+              </div>
+              <div class="flex justify-center bg-gray-400">
+                <img
+                  src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/515439923_1149086500597448_6795107110982435712_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=1&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wqobdUf99nIQ7kNvwFdi59Z&_nc_oc=Adm1kH8LqVJmN-AVVtgEWJANd6xXr0podvwuwGrsgi5IA6DuPamdw64pWhltb1ruTfoHysKAktrcjmHgyMVOQYfB&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfRI7oJKNkdP04lBsg7EyoPzmJ5R4muu6p2ZVjuXuli_lw&oe=6885127C"
+                  alt=""
+                />
+              </div>
+              <div class="">
+                <img src="../img/basketball.png" alt="" />
+              </div>
+            </div>
+            <!-- post card 6 -->
+
+            <div
+              class="h-auto w-full mt-6 shadow-[0_0_6px_2px_rgba(0,0,0,0.4)] rounded-md pb-3"
+            >
+              <div class="flex p-2">
+                <div class="">
+                  <img
+                    src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/357086956_640599234779513_5125238757925284799_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=jEpogYlTJ00Q7kNvwFHxCIW&_nc_oc=Admu_HQgztypWgOu1mEUlz-yvw8OP84pI5UQrBnNw3w6p8DLIoVJkJ1iRKHzBPUwuSjqNRPi9NmjI-hXd4gzM1Gw&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfSFxa4r0DRkZBUPFq-wIJs0PBTA_9qIiQXPbkkOU5xV4A&oe=6884DC57"
+                    alt=""
+                    class="rounded-full"
+                  />
+                </div>
+                <div class="block">
+                  <div class="flex items-center">
+                    <p class="font-semibold text-gray-700 ml-2">SPORTbible</p>
+                    <span class="bg-blue-500 ml-1 rounded-full text-white p-1" aria-label="Verified"
+                      >✓</span
+                    >
+                  </div>
+
+                  <div class="flex items-center gap-2 ml-2">
+                    <p class="text-xs text-gray-600">8m ·</p>
+                    <i class="fa-solid fa-earth-asia text-xs text-gray-600"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="p-2">
+                  Reese told fans that her $73,000 salary did not cover her
+                  $96,000-per-year rent and everyday bills. Steph Curry was
+                  quick to give his thoughts.
+                </p>
+              </div>
+              <div class="flex justify-center bg-gray-400">
+                <img
+                  src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/515439923_1149086500597448_6795107110982435712_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=1&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wqobdUf99nIQ7kNvwFdi59Z&_nc_oc=Adm1kH8LqVJmN-AVVtgEWJANd6xXr0podvwuwGrsgi5IA6DuPamdw64pWhltb1ruTfoHysKAktrcjmHgyMVOQYfB&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfRI7oJKNkdP04lBsg7EyoPzmJ5R4muu6p2ZVjuXuli_lw&oe=6885127C"
+                  alt=""
+                />
+              </div>
+              <div class="">
+                <img src="../img/basketball.png" alt="" />
+              </div>
+            </div>
+            <!-- post card 6 -->
+
+            <div
+              class="h-auto w-full mt-6 shadow-[0_0_6px_2px_rgba(0,0,0,0.4)] rounded-md pb-3"
+            >
+              <div class="flex p-2">
+                <div class="">
+                  <img
+                    src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/357086956_640599234779513_5125238757925284799_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=jEpogYlTJ00Q7kNvwFHxCIW&_nc_oc=Admu_HQgztypWgOu1mEUlz-yvw8OP84pI5UQrBnNw3w6p8DLIoVJkJ1iRKHzBPUwuSjqNRPi9NmjI-hXd4gzM1Gw&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfSFxa4r0DRkZBUPFq-wIJs0PBTA_9qIiQXPbkkOU5xV4A&oe=6884DC57"
+                    alt=""
+                    class="rounded-full"
+                  />
+                </div>
+                <div class="block">
+                  <div class="flex items-center">
+                    <p class="font-semibold text-gray-700 ml-2">SPORTbible</p>
+                    <span class="bg-blue-500 ml-1 rounded-full text-white p-1" aria-label="Verified"
+                      >✓</span
+                    >
+                  </div>
+
+                  <div class="flex items-center gap-2 ml-2">
+                    <p class="text-xs text-gray-600">8m ·</p>
+                    <i class="fa-solid fa-earth-asia text-xs text-gray-600"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="p-2">
+                  Reese told fans that her $73,000 salary did not cover her
+                  $96,000-per-year rent and everyday bills. Steph Curry was
+                  quick to give his thoughts.
+                </p>
+              </div>
+              <div class="flex justify-center bg-gray-400">
+                <img
+                  src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/515439923_1149086500597448_6795107110982435712_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=1&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wqobdUf99nIQ7kNvwFdi59Z&_nc_oc=Adm1kH8LqVJmN-AVVtgEWJANd6xXr0podvwuwGrsgi5IA6DuPamdw64pWhltb1ruTfoHysKAktrcjmHgyMVOQYfB&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfRI7oJKNkdP04lBsg7EyoPzmJ5R4muu6p2ZVjuXuli_lw&oe=6885127C"
+                  alt=""
+                />
+              </div>
+              <div class="">
+                <img src="../img/basketball.png" alt="" />
+              </div>
+            </div>
+            <!-- post card 6 -->
+
+            <div
+              class="h-auto w-full mt-6 shadow-[0_0_6px_2px_rgba(0,0,0,0.4)] rounded-md pb-3"
+            >
+              <div class="flex p-2">
+                <div class="">
+                  <img
+                    src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/357086956_640599234779513_5125238757925284799_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=jEpogYlTJ00Q7kNvwFHxCIW&_nc_oc=Admu_HQgztypWgOu1mEUlz-yvw8OP84pI5UQrBnNw3w6p8DLIoVJkJ1iRKHzBPUwuSjqNRPi9NmjI-hXd4gzM1Gw&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfSFxa4r0DRkZBUPFq-wIJs0PBTA_9qIiQXPbkkOU5xV4A&oe=6884DC57"
+                    alt=""
+                    class="rounded-full"
+                  />
+                </div>
+                <div class="block">
+                  <div class="flex items-center">
+                    <p class="font-semibold text-gray-700 ml-2">SPORTbible</p>
+                    <span class="bg-blue-500 ml-1 rounded-full text-white p-1" aria-label="Verified"
+                      >✓</span
+                    >
+                  </div>
+
+                  <div class="flex items-center gap-2 ml-2">
+                    <p class="text-xs text-gray-600">8m ·</p>
+                    <i class="fa-solid fa-earth-asia text-xs text-gray-600"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <p class="p-2">
+                  Reese told fans that her $73,000 salary did not cover her
+                  $96,000-per-year rent and everyday bills. Steph Curry was
+                  quick to give his thoughts.
+                </p>
+              </div>
+              <div class="flex justify-center bg-gray-400">
+                <img
+                  src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-6/515439923_1149086500597448_6795107110982435712_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=1&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wqobdUf99nIQ7kNvwFdi59Z&_nc_oc=Adm1kH8LqVJmN-AVVtgEWJANd6xXr0podvwuwGrsgi5IA6DuPamdw64pWhltb1ruTfoHysKAktrcjmHgyMVOQYfB&_nc_zt=23&_nc_ht=scontent.fktm21-1.fna&_nc_gid=IUt0JV6usoJDC4wJ8D7vsQ&oh=00_AfRI7oJKNkdP04lBsg7EyoPzmJ5R4muu6p2ZVjuXuli_lw&oe=6885127C"
+                  alt=""
+                />
+              </div>
+              <div class="">
+                <img src="../img/basketball.png" alt="" />
+              </div>
+            </div>
+
+            <!-- post card 7 -->
+
+          </div>
+
+          <!-- right part -->
+          <div
+            class="lg:w-3/12 hidden lg:block lg:ml-20 lg:overflow-auto h-[90vh] right-0 fixed cursor-pointer pl-16"
+          >
+            <div class="text-left mb-3">
+              <p class="text-gray-500 font-medium">Sponsored</p>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="">
+                <img
+                  src="https://scontent.fktm21-1.fna.fbcdn.net/v/t45.1600-4/479906623_120217862633810728_9064097944349331383_n.jpg?stp=cp0_dst-jpg_q75_s960x960_spS444_tt6&_nc_cat=110&ccb=1-7&_nc_sid=c02adf&_nc_ohc=mbhKIcwH3v8Q7kNvwHUJwha&_nc_oc=AdlmSnd_Xs1SQMWaxpSSNX5ZgLIhasW7Evw25GuDU4N9egm-Ra25RECsgynnk48GTNdoeK1-itoBrBjziaw_4xH_&_nc_zt=1&_nc_ht=scontent.fktm21-1.fna&_nc_gid=ZZHF3WUADaDb9X-ueAo5Nw&oh=00_AfTlE9Ri0-6_w7UTZwAco3Tbp9LXw5kSAlibrEHHfH445A&oe=6884D0CF"
+                  alt=""
+                  class="h-44 rounded-lg"
+                />
+              </div>
+              <div class=" ml-2">
+                <p class="font-medium text-black">Broadway Infosys</p>
+                <p class="text-gray-500 text-xs">broadwayinfosys.com</p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2 my-5">
+              <div class="">
+                <img
+                  src="https://scontent.fktm21-1.fna.fbcdn.net/v/t45.1600-4/518842425_710184208501194_5889395676058389954_n.png?stp=cp0_dst-jpg_p160x160_q90_spS444_tt6&_nc_cat=1&ccb=1-7&_nc_sid=c02adf&_nc_ohc=Tv5_UuiHddMQ7kNvwFQfMyk&_nc_oc=AdlF1vl_yGJJq5rIwNrk22Cx8-aZN1ILN7SU5PNViiy9OEyZnufPWG3mIOBpZmlu-LzgAbX3wYN47eK86OqhpzX-&_nc_zt=1&_nc_ht=scontent.fktm21-1.fna&_nc_gid=NZqfPsxnGQXFh11EP7a34w&oh=00_AfSfeBJNLDoaJHGA0djV5dcSJPBZNgtgecmfa9pJxYSs6Q&oe=6884D708"
+                  alt=""
+                  class="h-36 w-44 rounded-lg"
+                />
+              </div>
+              <div class=" ml-2">
+                <p class="font-medium text-black">BYBiT</p>
+                <p class="text-gray-500 text-xs">bybit.com</p>
+              </div>
+            </div>
+
+            <hr class="my-3" />
+
+            <div class="text-gray-500">
+              <div class="text-left">
+                <p>Contacts</p>
+                <ul>
+                  <li class="">
+                    <div class="flex gap-2 mt-2 items-center">
+                      <a href="#"
+                        ><img
+                          src="https://static.xx.fbcdn.net/rsrc.php/v4/yX/r/w5I9ktz_3Ib.png"
+                          alt=""
+                          class="h-[30px] rounded-full"
+                        />
+                      </a>
+                      <p class="pl-1">Meta AI</p>
+                    </div>
+                  </li>
+
+                  <li class="">
+                    <div class="flex gap-2 mt-3 items-center">
+                      <a href="#"
+                        ><img
+                          src="https://scontent.fktm21-1.fna.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=cp0_dst-png_s40x40&_nc_cat=1&ccb=1-7&_nc_sid=b224c7&_nc_ohc=O8hM-CTineUQ7kNvwFxdJW2&_nc_oc=Adm8RvRjR6yf_ZWX6zMoCzhmpe1Gz_Nhohftw-0_VhCug0o22UeduZnfY7v-2ySpPcvCiMG3jwMNd2KLtO79XGWn&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&oh=00_AfSioar_exR3w8qXrJXCu0JWqY28So5fWV6yWPQaQv9S0A&oe=68A6A67A"
+                          alt=""
+                          class="h-[30px] rounded-full"
+                        />
+                      </a>
+                      <p class="pl-1">Sa M Ir</p>
+                    </div>
+                  </li>
+                  <li class="">
+                    <div class="flex gap-2 mt-3 items-center">
+                      <a href="#"
+                        ><img
+                          src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/518342264_1201217015093369_300948295482868641_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=111&ccb=1-7&_nc_sid=e99d92&_nc_ohc=uLon337f-qwQ7kNvwH06r0K&_nc_oc=AdkAMw8Ue_y1RSWvMbuy5ileoika03GoTCf7SVWgbGUJ1t0T4yLo1_WTV2Ye_vq-Dz2XRheaFYnHVRRjPohbEbNY&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=JwwePQojMwZbMJa5kjAUmg&oh=00_AfQWMp92CMvIXrt5FWqIRWqz7PTbXhJeZwfFvPj3gFVngg&oe=688504E7"
+                          alt=""
+                          class="h-[30px] rounded-full"
+                        />
+                      </a>
+                      <p class="pl-1">Anmol Thapa</p>
+                    </div>
+                  </li>
+                  <li class="">
+                    <div class="flex gap-2 mt-3 items-center">
+                      <a href="#"
+                        ><img
+                          src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/489268264_1286265373059954_5414076581055006265_n.jpg?stp=cp0_dst-jpg_s60x60_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=fDj_1LaVldkQ7kNvwF2GF6g&_nc_oc=Adlp8kzsWOs2dJ-D2Xf3jsDayJkvSHKwTz9dbgqWHE8LOQ-olxtgBg3FFy_oasGiZxvwSPtBys_3yIBa-zHMhWlS&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=Pncz95RjALaCEUP1Fts71w&oh=00_AfSgBhQ0g3olLvJ_p_OCQWRT9YqSIChQxJnlnfJE5BY0oA&oe=68850CA6"
+                          alt=""
+                          class="h-[30px] rounded-full"
+                        />
+                      </a>
+                      <p class="pl-1">Neymar Jr.</p>
+                    </div>
+                  </li>
+                  <li class="">
+                    <div class="flex gap-2 mt-3 items-center">
+                      <a href="#"
+                        ><img
+                          src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/513032958_1048822867444438_5793296532004393256_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=104&ccb=1-7&_nc_sid=1d2534&_nc_ohc=yhw77qwydQQQ7kNvwH7m7We&_nc_oc=AdkRcZAepNN2IsWcZOWbmd7c4mR2rGSGkj7bnnutowathe1r1qXLdgSCAUqYtpp4JcRU-6WK8Wy4Dmtbr6Mr8WRE&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=8JDhZTDc9yvclmeYxkeQ3A&oh=00_AfSVhxasv5ZeF40Um2dlAt5MMOZ3X_-JUMzKwKfAnm4Tkw&oe=68850621"
+                          alt=""
+                          class="h-[30px] rounded-full"
+                        />
+                      </a>
+                      <p class="pl-1">ANil Shah</p>
+                    </div>
+                  </li>
+
+                  
+
+                  <li class="">
+                    <div class="flex gap-2 mt-3 items-center">
+                      <a href="#"
+                        ><img
+                          src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/448474001_1102716254548247_2613997786866384047_n.jpg?stp=cp0_dst-jpg_s60x60_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=jwnw4Mhl5FUQ7kNvwGXxFqF&_nc_oc=AdmR_OExCrtmV-rn-suWigRsEeFLbTzkACnYIZdvh8uvgeSPmnwYslGD87IDIYBCrsqEk-gwov0kpvYlcGKfhgsv&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=4oEmBJr43Lpu-HE6RaM_DA&oh=00_AfRDAWgeMlDRvz2xZaBipO7bklVEiYonuqWWPfTWNOR6tw&oe=68851521"
+                          alt=""
+                          class="h-[30px] rounded-full"
+                        />
+                      </a>
+                      <p class="pl-1">Cristiano Ronaldo</p>
+                    </div>
+                  </li>
+
+                  <li class="">
+                    <div class="flex gap-2 mt-3 items-center">
+                      <a href="#"
+                        ><img
+                          src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/499960721_1451973189504616_1533834464497851977_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=110&ccb=1-7&_nc_sid=1d2534&_nc_ohc=5hnSBM_0eIkQ7kNvwFzOdY6&_nc_oc=AdmeCdUc-lC0cG3DHWZkyQqibgNSLfgG4NouSDijYO-Asm3bNt6e2XZbBx2wuxuxLykRQYNMY2V0dNc2XgDK5cKo&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=wwbXetOOYa-8B2A3eifwPQ&oh=00_AfT17ksOfv-kzEPrdoGmOQJ-gf-o4IIoVWsJuwO-TdrO8A&oe=6884EA78"
+                          alt=""
+                          class="h-[30px] rounded-full"
+                        />
+                      </a>
+                      <p class="pl-1">Lamichhane Rupesh</p>
+                    </div>
+                  </li>
+                  <li class="">
+                    <div class="flex gap-2 mt-3 items-center">
+                      <a href="#"
+                        ><img
+                          src="https://scontent.fktm21-1.fna.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=cp0_dst-png_s40x40&_nc_cat=1&ccb=1-7&_nc_sid=b224c7&_nc_ohc=O8hM-CTineUQ7kNvwFxdJW2&_nc_oc=Adm8RvRjR6yf_ZWX6zMoCzhmpe1Gz_Nhohftw-0_VhCug0o22UeduZnfY7v-2ySpPcvCiMG3jwMNd2KLtO79XGWn&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&oh=00_AfSioar_exR3w8qXrJXCu0JWqY28So5fWV6yWPQaQv9S0A&oe=68A6A67A"
+                          alt=""
+                          class="h-[30px] rounded-full"
+                        />
+                      </a>
+                      <p class="pl-1">Sakshyam Khanal</p>
+                    </div>
+                  </li>
+                  <li class="">
+                    <div class="flex gap-2 mt-3 items-center">
+                      <a href="#"
+                        ><img
+                          src="https://scontent.fktm21-2.fna.fbcdn.net/v/t39.30808-1/484038341_665970895877419_1391537537242627611_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=103&ccb=1-7&_nc_sid=e99d92&_nc_ohc=svV3HV6zPmkQ7kNvwH-2SDk&_nc_oc=AdmKuGoGlS8JIhkblhddAMtDMSjunjiiIoClEIpHx__uSlZEw2lbSKMLwsilRDk3NjDSg-YhOv0m0utHrGgHXzxu&_nc_zt=24&_nc_ht=scontent.fktm21-2.fna&_nc_gid=yRFv4vPc-SY-7sLmZ2dVEg&oh=00_AfTl_O8OozditFSaN8fWGsx0NhKBN4jL_YefkYxcLs2mUw&oe=6885109F"
+                          alt=""
+                          class="h-[30px] rounded-full"
+                        />
+                      </a>
+                      <p class="pl-1">Buddha Ghale</p>
+                    </div>
+                  </li>
+                  <li class="">
+                    <div class="flex gap-2 mt-3 items-center">
+                      <a href="#"
+                        ><img
+                          src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/510419211_122132039192710919_6739220308465355245_n.jpg?stp=c0.0.756.756a_cp0_dst-jpg_s40x40_tt6&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_ohc=s2DFnj1ARiIQ7kNvwH-oLLF&_nc_oc=Adn_sM0E6EdsV9fJzD0hL4xeBuliKFKo2bDbhoBjcvPr2O9M2nnoA0uAe58M_r_A9d5SLTXTL0RwA1DzyY56zei9&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=QZnvsj5-8ZzudNr9rTKT9Q&oh=00_AfQY2PWFQcq6JgErHZQVpty_7lbW7BcpDnHy3zJQwePCpg&oe=6884F857"
+                          alt=""
+                          class="h-[30px] rounded-full"
+                        />
+                      </a>
+                      <p class="pl-1">Sujal Grxz</p>
+                    </div>
+                  </li>
+                  <li class="">
+                    <div class="flex gap-2 mt-3 items-center">
+                      <a href="#"
+                        ><img
+                          src="https://scontent.fktm21-1.fna.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=cp0_dst-png_s40x40&_nc_cat=1&ccb=1-7&_nc_sid=136b72&_nc_ohc=O8hM-CTineUQ7kNvwFxdJW2&_nc_oc=Adm8RvRjR6yf_ZWX6zMoCzhmpe1Gz_Nhohftw-0_VhCug0o22UeduZnfY7v-2ySpPcvCiMG3jwMNd2KLtO79XGWn&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&oh=00_AfSioar_exR3w8qXrJXCu0JWqY28So5fWV6yWPQaQv9S0A&oe=68A6A67A"
+                          alt=""
+                          class="h-[30px] rounded-full"
+                        />
+                      </a>
+                      <p class="pl-1">Kushal Sitaula</p>
+                    </div>
+                  </li>
+                  <li class="">
+                    <div class="flex gap-2 mt-3 items-center">
+                      <a href="#"
+                        ><img
+                          src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/323778786_1352915322137834_6671438233464297725_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=102&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=ua3dK5Pmcu4Q7kNvwGfuvia&_nc_oc=AdmUW2K8hEJwzAtZm3T3v7VWw_RfrnkIZ5iettZQVpVmJtRPlyBOWKL5HYnY5STAJK8SVebUORaxwMX05N0R5pH3&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=gYF1OfW4vOMjiMnyLX-JNg&oh=00_AfThtnmewLdMSMpHiDQooy_3gyh9FyGHdEpOIbiUskO2qA&oe=68851DE4"
+                          alt=""
+                          class="h-[30px] rounded-full"
+                        />
+                      </a>
+                      <p class="pl-1">Luka Modric</p>
+                    </div>
+                  </li>
+                  <li class="">
+                    <div class="flex gap-2 mt-3 items-center">
+                      <a href="#"
+                        ><img
+                          src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/280225113_546888823459430_7969020111079319033_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=QOPCuVNeCNMQ7kNvwH923vU&_nc_oc=Adl_KzHKiHA8xXYBB1Ny3Vxx26nCL9ior7lSc771noHF14WikOXi3xbWQ4CCpqgHLvYbFTGIAnMtXYVTn4Iasq9-&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=p-aSCJP2Na_MVqJRLkT7rQ&oh=00_AfQFsYaPgCkOHf_j5WPrs0VpXNk_ZGGI2j2WLrIvTg_Rjg&oe=68851686"
+                          alt=""
+                          class="h-[30px] rounded-full"
+                        />
+                      </a>
+                      <p class="pl-1">Kendrick Lamar</p>
+                    </div>
+                  </li>
+                  <li class="">
+                    <div class="flex gap-2 mt-3 items-center">
+                      <a href="#"
+                        ><img
+                          src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/496540825_1276830443799036_1928374118632900572_n.jpg?stp=cp0_dst-jpg_s40x40_tt6&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=42DcSCNSmCoQ7kNvwHDtpwl&_nc_oc=AdmOfJkvQRAwJv-GJ4AZAPbxl3bKDrfUBT9dNyGIbCFcCk60vAkkc6O1Z1UrrD6vkmxepwWXku8Ue2fuNCOZbq2R&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=82LnxS7Gma1FSNZX7FAtOg&oh=00_AfSvsCTbvygFX7so0ABdDMq07fCXWN4HDlM0UrWuGg2S0g&oe=68851407"
+                          alt=""
+                          class="h-[30px] rounded-full"
+                        />
+                      </a>
+                      <p class="pl-1">Travis Scott</p>
+                    </div>
+                  </li>
+                  <li class="">
+                    <div class="flex gap-2 mt-3 items-center">
+                      <a href="#"
+                        ><img
+                          src="https://scontent.fktm21-1.fna.fbcdn.net/v/t39.30808-1/453016966_1131008995050211_6492754317993326759_n.jpg?stp=cp6_dst-jpg_s40x40_tt6&_nc_cat=1&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=Eq0ys0kGU60Q7kNvwHxpfc8&_nc_oc=AdmjUxK6HtmJX8CQKwplaiJD5zatAGowz7a0xll6mtqvbHE0vQAwKtl0-veYN_B_7anN31N2U8va_sfz2aJjEcu1&_nc_zt=24&_nc_ht=scontent.fktm21-1.fna&_nc_gid=HG2jXils-SlcwhgxwoK5Zw&oh=00_AfQ8Oqxhsl1X3xb4gsOYV3br7MljEm8jp66v2HfRthTdLQ&oe=68851752"
+                          alt=""
+                          class="h-[30px] rounded-full"
+                        />
+                      </a>
+                      <p class="pl-1">Kylie Jenner</p>
+                    </div>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- <h1 class="text-3xl font-bold text-blue-600">Hello Tailwind!</h1> -->
+  </body>
+</html>
